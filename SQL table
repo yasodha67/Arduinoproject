@@ -1,0 +1,2 @@
+SQL table
+create table motion(id INT AUTO_INCREMENT PRIMARY KEY,door_status ENUM('opened','closed'),persons_detected INT,entry_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
